@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+    background-color: aliceblue;
+    color:darkgreen;
+}
+.alpha {
+    font-style:italic;
+}
+.beta {
+    font-size: larger;
+    font-style:italic;
+    font font-family: Helvetica; 
+}
+.gamma {
+    font-weight: bold;
+}
+.delta {
+    font-weight: bold;
+}
+.omicron {
+    margin-left: 420px; 
+    margin-right: 420px;
+}
+ul {
+    text-align: center;
+    margin: 855px;
+    border: double rgb(228, 21, 255);
+    border-radius: 10px;
+}
