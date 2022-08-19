@@ -21,9 +21,12 @@ body {
     margin-left: 420px; 
     margin-right: 420px;
 }
-ul {
+#projectlist {
     text-align: center;
     margin: 855px;
     border: double rgb(228, 21, 255);
     border-radius: 10px;
+}
+ul {
+    list-style: none;
 }
