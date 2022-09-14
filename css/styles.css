@@ -1,7 +1,15 @@
 body {
     text-align: center;
-    background-color: aliceblue;
+    background-image: linear-gradient(#0B3C49,#B8C4BB) ;
+    color:white;
+}
+.Contact {
     color:darkgreen;
+}
+iframe:hover {
+    animation-name: lol;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
 }
 .alpha {
     font-style:italic;
@@ -29,4 +37,23 @@ body {
 }
 ul {
     list-style: none;
+}
+
+::-webkit-scrollbar {
+    width:20px;
+}
+
+::-webkit-scrollbar-track {
+    background: limegreen
+}
+
+::-webkit-scrollbar-thumb {
+    background:rgb(240, 5, 240)
+}
+
+@keyframes lol {
+    from {}
+    to {
+        transform:translateY(50em) rotate(720deg);
+    }
 }
