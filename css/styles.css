@@ -54,6 +54,6 @@ ul {
 @keyframes lol {
     from {}
     to {
-        transform:translateY(50em) rotate(720deg);
+        transform:rotate(720deg);
     }
 }
